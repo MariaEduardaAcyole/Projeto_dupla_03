@@ -2,9 +2,19 @@ body {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  background-color: rgb(23, 22, 22);
-  color: #fff;
+  background-color: rgb(255, 255, 255);
+  color: #000000;
   width: 100%;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+a:visited {
+  color: rgb(8, 216, 70);
 }
 
 header {
@@ -16,48 +26,54 @@ header {
   flex-wrap: wrap;
   flex-direction: column;
   border: 3px solid rgb(255, 255, 255);
+}
+#caixa-logo {
+  width: 100%;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-}
-#caixa-logo{
-width: 100%;
-height: 80%;
-display: flex;
-justify-content: center;
-align-items: center;
-}
-#img-logo{
+#img-logo {
   height: 40vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
+#inicio {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
 nav {
-width: 30%;
-height: 20%;
-display: flex;
-align-items: center;
-justify-content: space-evenly;
+  width: 70%;
+  height: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border: 1px solid rgba(0, 0, 0, 0.592);
+  border-radius: 30px;
+  font-weight: bold;
+  color: #000;
 }
 
 aside {
   padding: 1%;
-
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   align-items: center;
+
   background-color: #ffffff0c;
-
 }
 
-a{
-  padding: 20%;
-}
 main {
   width: 90%;
   padding: 20px;
-
 }
 
 .corpo {
@@ -70,20 +86,38 @@ main {
 .menu-lateral {
   width: 10%;
   float: left;
-
+  background-color: #919191dd;
 }
-
+.item-menu-lateral {
+  padding-bottom: 30%;
+  padding-top: 30%;
+}
 .conteudo {
   width: 83%;
   float: right;
 }
 
-.como-funciona{
+.como-funciona {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
-
 }
-.texto-geral{
+.texto-geral {
   width: 70%;
+}
+.desktop, .moveis , .servidores, .vestiveis{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.titulo-tipos{
+  width: 50%;
+  border-radius: 30px;
+  padding: 1%;
+  background-color: rgba(0, 255, 255, 0.314);
+}
+.caixa-tipos{
+  border: #000 1px solid;
+  padding: 1%;
+  margin-bottom: 1%;
 }
