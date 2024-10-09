@@ -4,312 +4,338 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
-        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-        <link rel="stylesheet" href="Inicio.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="Inicio.css">
 
     <title>Inicio</title>
 </head>
 
 <body>
     <header id="inicio">
-        <img src="./IMG/sysops (4).png" alt="logo">
-        <img src="./IMG/fundo-inicio-foto.png" alt="fundo roxo com flashs e linhas coloridas">
-
+        <div id="caixa-logo">
+            <img id="img-logo" src="./IMG/sysops (4).png" alt="logo">
+        </div>
         <nav>
             <a href="./Inicio.html">Inicio</a>
             <a href="./form.html">Opine</a>
         </nav>
     </header>
- 
 
-    <aside class="menu-lateral">
-        <a href="#windows">
-            <img src="IMG/windows icone.png" alt="icone do windows quatro quadrados alinhados em 2 linhas e colunas"></a>
-        <a href="#macos">
-            <img src="IMG/macos icone.png" alt="icone do macos uma maçã"></a>
-        <a href="#linux">
-            <img src="IMG/linux icone.png" alt="icone do linux um pinguim"></a>
-        <a href="#android">
-            <img src="IMG/android icone.png" alt="icone do android um robo verde"></a>
-        <a href="#ios">
-            <img src="IMG/ios icone.png" alt="icone do ios as letras i o e s"></a>
-    </aside>
+    <div class="corpo">
+        <aside class="menu-lateral">
+            <a href="#windows" class="item-menu-lateral">
+                <img src="IMG/windows icone.png"
+                    alt="icone do windows quatro quadrados alinhados em 2 linhas e colunas"></a>
+            <a href="#macos" class="item-menu-lateral">
+                <img src="IMG/macos icone.png" alt="icone do macos uma maçã"></a>
+            <a href="#linux" class="item-menu-lateral">
+                <img src="IMG/linux icone.png" alt="icone do linux um pinguim"></a>
+            <a href="#android" class="item-menu-lateral">
+                <img src="IMG/android icone.png" alt="icone do android um robo verde"></a>
+            <a href="#ios" class="item-menu-lateral">
+                <img src="IMG/ios icone.png" alt="icone do ios as letras i o e s"></a>
+        </aside>
 
-    <main class="content"> <!--Conteúdo principal; -->
-        <section><!-- Seções; -->
-            <h2>OQUE É UM SISTEMA OPERACIONAL?
-            </h2>
-            <p>Um sistema operacional é uma plataforma que se posiciona entre a pessoa usuária e os componentes físicos
-                de um computador — denominados como Hardwares. Por meio dele, é possível controlar a execução de tarefas
-                e programas, assim como o gerenciamento da memória, dispositivos e arquivos. 
-                Em outras palavras, o sistema operacional permite que uma pessoa acesse e controle as partes do
-                computador sem ter conhecimentos técnicos específicos, tornando o computador acessível.
-            </p>
-            <h2>Como funciona?</h2>
-
-            <p>Controlam processos ao gerenciar a execução de programas, permitindo multitarefa e alocando o tempo de
-                CPU de maneira eficiente. Na alocação de memória, o SO distribui espaço na RAM para diferentes
-                processos, garantindo que cada um tenha acesso aos recursos necessários.
-                Em resumo, o sistema operacional é responsável por coordenar todos esses elementos de forma integrada,
-                para que o usuário possa interagir com o computador e seus recursos de maneira eficiente, sem se
-                preocupar com a complexidade do hardware.
-
+        <main class="conteudo"> <!--Conteúdo principal; -->
+            <section><!-- Seções; -->
+                <h2>OQUE É UM SISTEMA OPERACIONAL?
+                </h2>
+                <p>Um sistema operacional é uma plataforma que se posiciona entre a pessoa usuária e os componentes
+                    físicos
+                    de um computador — denominados como Hardwares. Por meio dele, é possível controlar a execução de
+                    tarefas
+                    e programas, assim como o gerenciamento da memória, dispositivos e arquivos. 
+                    Em outras palavras, o sistema operacional permite que uma pessoa acesse e controle as partes do
+                    computador sem ter conhecimentos técnicos específicos, tornando o computador acessível.
+                </p>
+            </section>
 
             <section>
+                <h2 class="texto-geral">Como funciona?</h2>
 
-                <div>
+                <div class="como-funciona">
+
+                    <p class="texto-geral">Controlam processos ao gerenciar a execução de programas, permitindo
+                        multitarefa
+                        e alocando o tempo
+                        de
+                        CPU de maneira eficiente. Na alocação de memória, o SO distribui espaço na RAM para diferentes
+                        processos, garantindo que cada um tenha acesso aos recursos necessários.
+                        Em resumo, o sistema operacional é responsável por coordenar todos esses elementos de forma
+                        integrada,
+                        para que o usuário possa interagir com o computador e seus recursos de maneira eficiente, sem se
+                        preocupar com a complexidade do hardware.
+                    </p>
                     <img src="./IMG/como-funciona.png" alt="tutorial como  funciona um sistema operacional">
                 </div>
-
-                <hr>
-
+            </section>
+            <hr>
+            <section>
                 <h3>Tipos de Sistemas Operacionais: </h3>
-
-                <div>
-                    <div>
+                <div class="caixa-tipos">
+                    <div class="desktop">
                         <img src="./IMG/windows.png" alt="windows janela do windows">
                         <img src="./IMG/mac os.png" alt="macos logo do macOS">
                         <img src="./IMG/linux.png" alt="linux o pinguim do linux">
                     </div>
                     <div>
-                        <h3>Desktop</h3>
+                        <h3 class="titulo-tipos">Desktop</h3>
                         <p>são projetados para computadores desktop e laptops, fornecendo uma interface gráfica
                             intuitiva e recursos avançados para o uso diário, produtividade e entretenimento.</p>
                     </div>
 
                 </div>
 
-                <div>
-                    <div>
+                <div class="caixa-tipos">
+                    <div class="moveis">
                         <img src="./IMG/android.png" alt="android o robozinho">
                         <img src="./IMG/ios.png" alt="">
                     </div>
                     <div>
-                        <h3>Dispositivos Moveis</h3>
-                        <p>foram desenvolvidos para smartphones e tablets, oferecendo uma interface otimizada para telas
+                        <h3 class="titulo-tipos">Dispositivos Moveis</h3>
+                        <p>foram desenvolvidos para smartphones e tablets, oferecendo uma interface otimizada para
+                            telas
                             sensíveis ao toque e focando em mobilidade.</p>
                     </div>
                 </div>
 
-                <div>
-                    <div>
+                <div class="caixa-tipos">
+                    <div class="servidores">
                         <img src="./IMG/ubuntu server.png" alt="servior ubuntu palavra ubuntu">
                         <img src="./IMG/windows server.png" alt="servidor windows server">
                     </div>
                     <div>
-                        <h3>Servidores</h3>
+                        <h3 class="titulo-tipos">Servidores</h3>
                         <p>projetados para gerenciar redes, servidores e serviços corporativos. Eles são robustos,
-                            focados em segurança, escalabilidade e estabilidade para lidar com grandes volumes de dados
+                            focados em segurança, escalabilidade e estabilidade para lidar com grandes volumes de
+                            dados
                             e acessos simultâneos.</p>
                     </div>
                 </div>
 
-                <div>
-                    <div>
+                <div class="caixa-tipos">
+                    <div class="vestiveis">
                         <img src="./IMG/wear.png" alt="wear sietmas de relogio ">
                         <img src="./IMG/watchos.png" alt="watchos sistema de relogios">
                     </div>
                     <div>
-                        <h3>Dispositivos Vestíveis</h3>
+                        <h3 class="titulo-tipos">Dispositivos Vestíveis</h3>
                         <p>surgiram sistemas operacionais voltados para smartwatches, óculos inteligentes e outros
                             dispositivos que interagem diretamente com o corpo humano. Estes sistemas são leves e
                             otimizados para economia de energia.</p>
                     </div>
                 </div>
+            </section>
 
-                <hr>
+            <hr>
 
+            <div>
+                <img src="./IMG/windows maior.png" alt=" windows">
+                <img src="./IMG/logotipo-do-mac-os 2.png" alt="logotipo do macOS">
+                <img src="./IMG/linux maior.png" alt=" logo linux">
+            </div>
+
+            <hr>
+
+            <h3>Principais caracteristicas dos sistemas operacionais para desktop</h3>
+            <table>
+                <tr>
+                    <th>Característica</th>
+                    <th>macOS</th>
+                    <th>Windows</th>
+                    <th>Linux</th>
+                </tr>
+                <tr>
+                    <td>Desenvolvedor</td>
+                    <td>Apple</td>
+                    <td>Microsoft</td>
+                    <td>Comunidade Open Source</td>
+                </tr>
+                <tr>
+                    <td>Licenciamento</td>
+                    <td>Proprietário</td>
+                    <td>Proprietário</td>
+                    <td>Open Source</td>
+                </tr>
+                <tr>
+                    <td>Interface Gráfica</td>
+                    <td>macOS UI (Aqua)</td>
+                    <td>Windows GUI</td>
+                    <td>Varia (GNOME, KDE, XFCE, etc.)</td>
+                </tr>
+                <tr>
+                    <td>Compatibilidade de Software</td>
+                    <td>Forte para software criativo (design, edição de vídeo)</td>
+                    <td>Grande compatibilidade, especialmente com software empresarial e jogos</td>
+                    <td>Varia conforme a distribuição, compatível com software de desenvolvimento e servidores
+                    </td>
+                </tr>
+                <tr>
+                    <td>Segurança</td>
+                    <td>Considerado seguro, base Unix</td>
+                    <td>Vulnerável a malwares, mas com muitas soluções de segurança</td>
+                    <td>Considerado seguro, baseado em Unix, código aberto facilita correções rápidas</td>
+                </tr>
+                <tr>
+                    <td>Customização</td>
+                    <td>Limitada, interface fechada</td>
+                    <td>Moderada, opções de personalização de interface e configuração</td>
+                    <td>Altamente customizável</td>
+                </tr>
+                <tr>
+                    <td>Suporte a Hardware</td>
+                    <td>Suporte oficial apenas para hardware Apple</td>
+                    <td>Compatível com a maioria do hardware de mercado</td>
+                    <td>Compatível com uma ampla gama de hardware</td>
+                </tr>
+                <tr>
+                    <td>Mercado Alvo</td>
+                    <td>Usuários criativos, designers, editores de vídeo</td>
+                    <td>Usuários gerais, empresas e gamers</td>
+                    <td>Desenvolvedores, servidores, usuários que preferem customização</td>
+                </tr>
+            </table>
+
+            <hr>
+
+            <div>
                 <div>
-                    <img src="./IMG/windows maior.png" alt=" windows">
-                    <img src="./IMG/logotipo-do-mac-os 2.png" alt="logotipo do macOS">
-                    <img src="./IMG/linux maior.png" alt=" logo linux">
+                    <h3>Comparando os sistema operacionais para Desktop</h3>
+                    <img src="IMG/tela windows.png" alt="tela janela do windows area de trabalho" id="windows">
+
+                    <ul>
+                        <h3>VANTAGENS</h3>
+                        <li>Grande compatibilidade de software, especialmente com jogos e programas
+                            empresariais.
+                        </li>
+                        <li>Interface amigável, sendo familiar para a maioria dos usuários.</li>
+                        <li>Amplo suporte para uma grande variedade de hardware.</li>
+                    </ul>
+
+                    <ul>
+                        <h3>DESVANTAGENS</h3>
+                        <li>Vulnerável a vírus e malwares, exigindo softwares de segurança adicionais.</li>
+                        <li>Custo elevado, especialmente para versões profissionais e empresariais.</li>
+                        <li>Menor customização em comparação com sistemas como Linux.</li>
+                    </ul>
                 </div>
-
-                <hr>
-
-                <h3>Principais caracteristicas dos sistemas operacionais para desktop</h3>
-                <table>
-                    <tr>
-                        <th>Característica</th>
-                        <th>macOS</th>
-                        <th>Windows</th>
-                        <th>Linux</th>
-                    </tr>
-                    <tr>
-                        <td>Desenvolvedor</td>
-                        <td>Apple</td>
-                        <td>Microsoft</td>
-                        <td>Comunidade Open Source</td>
-                    </tr>
-                    <tr>
-                        <td>Licenciamento</td>
-                        <td>Proprietário</td>
-                        <td>Proprietário</td>
-                        <td>Open Source</td>
-                    </tr>
-                    <tr>
-                        <td>Interface Gráfica</td>
-                        <td>macOS UI (Aqua)</td>
-                        <td>Windows GUI</td>
-                        <td>Varia (GNOME, KDE, XFCE, etc.)</td>
-                    </tr>
-                    <tr>
-                        <td>Compatibilidade de Software</td>
-                        <td>Forte para software criativo (design, edição de vídeo)</td>
-                        <td>Grande compatibilidade, especialmente com software empresarial e jogos</td>
-                        <td>Varia conforme a distribuição, compatível com software de desenvolvimento e servidores</td>
-                    </tr>
-                    <tr>
-                        <td>Segurança</td>
-                        <td>Considerado seguro, base Unix</td>
-                        <td>Vulnerável a malwares, mas com muitas soluções de segurança</td>
-                        <td>Considerado seguro, baseado em Unix, código aberto facilita correções rápidas</td>
-                    </tr>
-                    <tr>
-                        <td>Customização</td>
-                        <td>Limitada, interface fechada</td>
-                        <td>Moderada, opções de personalização de interface e configuração</td>
-                        <td>Altamente customizável</td>
-                    </tr>
-                    <tr>
-                        <td>Suporte a Hardware</td>
-                        <td>Suporte oficial apenas para hardware Apple</td>
-                        <td>Compatível com a maioria do hardware de mercado</td>
-                        <td>Compatível com uma ampla gama de hardware</td>
-                    </tr>
-                    <tr>
-                        <td>Mercado Alvo</td>
-                        <td>Usuários criativos, designers, editores de vídeo</td>
-                        <td>Usuários gerais, empresas e gamers</td>
-                        <td>Desenvolvedores, servidores, usuários que preferem customização</td>
-                    </tr>
-                </table>
-
-                <hr>
-
                 <div>
-                    <div>
-                        <h3>Comparando os sistema operacionais para Desktop</h3>
-                        <img src="IMG/tela windows.png" alt="tela janela do windows area de trabalho" id="windows">
+                    <img src="IMG/tela macos.png" alt="tela do macOS area de trabalho" id="macos">
 
-                        <ul>
-                            <h3>VANTAGENS</h3>
-                            <li>Grande compatibilidade de software, especialmente com jogos e programas empresariais.
-                            </li>
-                            <li>Interface amigável, sendo familiar para a maioria dos usuários.</li>
-                            <li>Amplo suporte para uma grande variedade de hardware.</li>
-                        </ul>
+                    <ul>
+                        <h3>VANTAGENS</h3>
 
-                        <ul>
-                            <h3>DESVANTAGENS</h3>
-                            <li>Vulnerável a vírus e malwares, exigindo softwares de segurança adicionais.</li>
-                            <li>Custo elevado, especialmente para versões profissionais e empresariais.</li>
-                            <li>Menor customização em comparação com sistemas como Linux.</li>
-                        </ul>
-                    </div>
-                    <div>
-                        <img src="IMG/tela macos.png" alt="tela do macOS area de trabalho" id="macos">
+                        <li>Alta integração entre hardware e software, proporcionando estabilidade e desempenho
+                            otimizado.</li>
+                        <li>Sistema amigável para designers e criadores de conteúdo, com ótimo suporte para
+                            ferramentas criativas.</li>
+                        <li>Maior segurança e menor risco de malwares em comparação com outros sistemas.</li>
+                    </ul>
 
-                        <ul>
-                            <h3>VANTAGENS</h3>
-
-                            <li>Alta integração entre hardware e software, proporcionando estabilidade e desempenho
-                                otimizado.</li>
-                            <li>Sistema amigável para designers e criadores de conteúdo, com ótimo suporte para
-                                ferramentas criativas.</li>
-                            <li>Maior segurança e menor risco de malwares em comparação com outros sistemas.</li>
-                        </ul>
-
-                        <ul>
-                            <h3>DESVANTAGENS</h3>
-                            <li>Custo elevado, tanto do sistema quanto dos dispositivos Apple.</li>
-                            <li>Compatibilidade limitada com hardware de terceiros.</li>
-                            <li>Menor quantidade de jogos e softwares empresariais disponíveis em comparação com o
-                                Windows.</li>
-                        </ul>
-                    </div>
-                    <div>
-                        <img src="./IMG/tela linux.png" alt="tela do linux area de trabalho" id="linux">
-                        <ul>
-                            <h3>VANTAGENS</h3>
-                            <li>É open source e gratuito, permitindo modificações e adaptações por parte dos usuários.
-                            </li>
-                            <li>Extremamente seguro, com menor incidência de vírus e malwares.</li>
-                            <li>Altamente customizável, com várias distribuições e ambientes de desktop à escolha.</li>
-                        </ul>
-
-                        <ul>
-                            <h3>DESVANTAGENS</h3>
-                            <li>Curva de aprendizado mais acentuada para novos usuários, especialmente para quem vem de
-                                outros sistemas operacionais.</li>
-                            <li>Compatibilidade limitada com softwares proprietários, especialmente jogos e programas
-                                específicos.</li>
-                            <li>Suporte técnico pode ser mais complicado, dependendo da distribuição e da comunidade.
-                            </li>
-                        </ul>
-
-                    </div>
-                    <div>
-                        <img src="./IMG/tela android.png" alt="tela do android principal" id="android">
-                        <ul>
-                            <h3>VANTAGENS</h3>
-                            <li>Disponível em uma ampla variedade de dispositivos e faixas de preço.</li>
-                            <li>Alta customização, permitindo alterações na interface e uso de aplicativos de diversas
-                                fontes.</li>
-                            <li>Grande biblioteca de aplicativos na Google Play Store.</li>
-                        </ul>
-
-                        <ul>
-                            <h3>DESVANTAGENS</h3>
-                            <li>Fragmentação do sistema, com atualizações de software inconsistentes entre dispositivos.
-                            </li>
-                            <li>Vulnerável a malwares e ameaças de segurança se não forem tomados cuidados com os apps
-                                baixados.</li>
-                            <li>Desempenho inconsistente em dispositivos de hardware mais fraco.</li>
-                        </ul>
-                    </div>
-                    <div>
-                        <img src="./IMG/tela ios.png" alt="tela do ios principal" id="ios">
-                        <ul>
-                            <h3>VANTAGENS</h3>
-                            <li>Sistema operacional altamente otimizado para o hardware, garantindo desempenho uniforme.
-                            </li>
-                            <li>Atualizações de software rápidas e consistentes para todos os dispositivos suportados.</li>
-                            <li>Ambiente mais seguro, com menor risco de malwares e ataques cibernéticos.</li>
-                        </ul>
-    
-                        <ul>
-                            <h3>DESVANTAGENS</h3>
-                            <li>Menor nível de personalização comparado ao Android.</li>
-                            <li>Disponível apenas em dispositivos da Apple, que geralmente têm preços mais elevados.</li>
-                            <li>Dependência do ecossistema Apple, limitando a compatibilidade com outros dispositivos.</li>
-                        </ul>
-    
-                    </div>
+                    <ul>
+                        <h3>DESVANTAGENS</h3>
+                        <li>Custo elevado, tanto do sistema quanto dos dispositivos Apple.</li>
+                        <li>Compatibilidade limitada com hardware de terceiros.</li>
+                        <li>Menor quantidade de jogos e softwares empresariais disponíveis em comparação com o
+                            Windows.</li>
+                    </ul>
                 </div>
-               
+                <div>
+                    <img src="./IMG/tela linux.png" alt="tela do linux area de trabalho" id="linux">
+                    <ul>
+                        <h3>VANTAGENS</h3>
+                        <li>É open source e gratuito, permitindo modificações e adaptações por parte dos
+                            usuários.
+                        </li>
+                        <li>Extremamente seguro, com menor incidência de vírus e malwares.</li>
+                        <li>Altamente customizável, com várias distribuições e ambientes de desktop à escolha.
+                        </li>
+                    </ul>
 
-    </main>
+                    <ul>
+                        <h3>DESVANTAGENS</h3>
+                        <li>Curva de aprendizado mais acentuada para novos usuários, especialmente para quem vem
+                            de
+                            outros sistemas operacionais.</li>
+                        <li>Compatibilidade limitada com softwares proprietários, especialmente jogos e
+                            programas
+                            específicos.</li>
+                        <li>Suporte técnico pode ser mais complicado, dependendo da distribuição e da
+                            comunidade.
+                        </li>
+                    </ul>
 
-    <hr>
+                </div>
+                <div>
+                    <img src="./IMG/tela android.png" alt="tela do android principal" id="android">
+                    <ul>
+                        <h3>VANTAGENS</h3>
+                        <li>Disponível em uma ampla variedade de dispositivos e faixas de preço.</li>
+                        <li>Alta customização, permitindo alterações na interface e uso de aplicativos de
+                            diversas
+                            fontes.</li>
+                        <li>Grande biblioteca de aplicativos na Google Play Store.</li>
+                    </ul>
 
-    <footer>
-        <img src="./IMG/logo.png" alt="logo sysops">
-        &copy; SYSCOPS
+                    <ul>
+                        <h3>DESVANTAGENS</h3>
+                        <li>Fragmentação do sistema, com atualizações de software inconsistentes entre
+                            dispositivos.
+                        </li>
+                        <li>Vulnerável a malwares e ameaças de segurança se não forem tomados cuidados com os
+                            apps
+                            baixados.</li>
+                        <li>Desempenho inconsistente em dispositivos de hardware mais fraco.</li>
+                    </ul>
+                </div>
+                <div>
+                    <img src="./IMG/tela ios.png" alt="tela do ios principal" id="ios">
+                    <ul>
+                        <h3>VANTAGENS</h3>
+                        <li>Sistema operacional altamente otimizado para o hardware, garantindo desempenho
+                            uniforme.
+                        </li>
+                        <li>Atualizações de software rápidas e consistentes para todos os dispositivos
+                            suportados.</li>
+                        <li>Ambiente mais seguro, com menor risco de malwares e ataques cibernéticos.</li>
+                    </ul>
 
-        <div>
-            <a href=""><i class="fa-brands fa-facebook"></i></a>
-            <a href=""><i class="fa-brands fa-instagram"></i></a>
-            <a href=""><i class="fa-brands fa-twitter"></i></a>
-            <a href=""><i class="fa-brands fa-google-plus"></i></a>
-            <a href=""><i class="fa-brands fa-youtube"></i></a>
-        </div>
-        <a href="#inicio">
-            <img src="./IMG/inicio.png" alt="">
-        </a>
-    </footer>
+                    <ul>
+                        <h3>DESVANTAGENS</h3>
+                        <li>Menor nível de personalização comparado ao Android.</li>
+                        <li>Disponível apenas em dispositivos da Apple, que geralmente têm preços mais elevados.
+                        </li>
+                        <li>Dependência do ecossistema Apple, limitando a compatibilidade com outros
+                            dispositivos.</li>
+                    </ul>
+
+                </div>
+            </div>
+
+
+        </main>
+
+
+        <footer>
+            <img src="./IMG/logo.png" alt="logo sysops">
+            &copy; SYSCOPS
+
+            <div>
+                <a href=""><i class="fa-brands fa-facebook"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-twitter"></i></a>
+                <a href=""><i class="fa-brands fa-google-plus"></i></a>
+                <a href=""><i class="fa-brands fa-youtube"></i></a>
+            </div>
+            <a href="#inicio">
+                <img src="./IMG/inicio.png" alt="">
+            </a>
+        </footer>
+    </div>
 
 </body>
 
