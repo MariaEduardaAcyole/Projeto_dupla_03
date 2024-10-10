@@ -1,8 +1,16 @@
+:root{
+  ---branco: #fff;
+  ---cinza-claro: #676f9d;
+  --cinza-medio: #424769;
+ ---cinza-escuro: #2d3250;
+ ---dourado: #f9b17a; 
+}
+
 body {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  background-color: rgb(255, 255, 255);
+  background-color:var(---branco);
   color: #000000;
   width: 100%;
   font-family: "Inter", sans-serif;
@@ -11,11 +19,15 @@ body {
 }
 a {
   text-decoration: none;
-  color: rgb(0, 0, 0);
+  color: var(---dourado);
 }
-a:visited {
-  color: rgb(8, 216, 70);
+
+a:hover {
+  font-size: 20px;
+  border-radius: 30px;
+  box-shadow: 5px 5px 5px #676f9d;
 }
+
 
 header {
   width: 100%;
@@ -26,6 +38,7 @@ header {
   flex-wrap: wrap;
   flex-direction: column;
   border: 3px solid rgb(255, 255, 255);
+  background-color: var(---cinza-escuro);
 }
 #caixa-logo {
   width: 100%;
@@ -94,7 +107,6 @@ main {
 }
 .conteudo {
   width: 83%;
-  float: right;
 }
 
 .como-funciona {
