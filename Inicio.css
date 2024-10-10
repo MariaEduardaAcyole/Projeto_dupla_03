@@ -5,7 +5,9 @@
   --cinza-escuro: #2d3250;
   --dourado: #f9b17a;
 }
-
+ul{
+  margin: 0%;
+}
 body {
 
   margin: 0%;
@@ -19,6 +21,7 @@ body {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
+  overflow-x: hidden !important;
 }
 
 nav a {
@@ -68,7 +71,7 @@ header {
 
 nav {
   width: 70%;
-  height: 20%;
+  height: 16%;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -80,7 +83,6 @@ nav {
 
 a {
   background-color: transparent;
-
 }
 
 aside {
@@ -98,17 +100,17 @@ main {
 }
 
 .corpo {
-  width: auto;
+  width: 100%;
   height: 100%;
   display: flex;
+justify-content: center;
   flex-direction: row;
 }
 
 .menu-lateral {
-  margin: 1%;
-  width: 10%;
-  float: left;
-  height: auto;
+  margin: 1% 1% 0% 0%;
+  width: 12%;
+  margin-left: 0px;
   background-color: var(--cinza-escuro);
 }
 
@@ -119,6 +121,7 @@ main {
 
 .conteudo {
   width: 83%;
+  padding: 0%;
 }
 
 .como-funciona {
@@ -131,25 +134,7 @@ main {
   width: 70%;
 }
 
-/*
-.desktop, .moveis , .servidores, .vestiveis{
-  width: 100%;
-  display: flex;
-  justify-content: space-around;
-}
-.titulo-tipos{
-  width: 50%;
-  border-radius: 30px;
-  padding: 1%;
-  background-color: rgba(0, 255, 255, 0.314);
-}
-.caixa-tipos{
-  border: #000 1px solid;
-  padding: 1%;
-  margin-bottom: 1%;
-} */
 
-/* Estilo da Caixa Principal */
 
 .caixa-tipos-de-sistemas {
   display: flex;
@@ -221,3 +206,59 @@ thead {
 .coluna-negrito{
 font-weight: bold;
 }
+
+#windows, #macos,#android, #linux, #ios{
+border-radius: 5%;
+border: 5px var(--dourado) solid;
+}
+
+#macos, #windows, #linux{
+height: 55vh;
+}
+
+#android, #ios{
+  height: 75vh;
+}
+
+.vant-desv{
+  display: flex;
+}
+.texto-vant-desv{
+background-color: aqua;
+}
+
+footer{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  color: #fff;
+  padding: 2%;
+  align-items: center;
+  background-color: var(--cinza-escuro);
+}
+i{
+  color: #f9b17a;
+}
+.icones{
+  display: flex;
+  width: 20%;
+  flex-direction: row;
+justify-content: space-evenly;
+}
+
+.imagem-download{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.imagem-download a{
+  color: var(--dourado);
+  text-decoration: none;
+  padding: 10px;
+  transition: all 0.3s ease;
+}
+.imagem-download a:hover{
+    color: var(--dourado);
+    border-bottom: 2px solid var(--dourado);
+  }

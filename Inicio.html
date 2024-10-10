@@ -9,6 +9,8 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
     <link rel="stylesheet" href="Inicio.css">
 
     <title>Inicio</title>
@@ -151,66 +153,69 @@
                         <th>Linux</th>
                     </tr>
                 </thead>
-         <tbody>
-                <tr>
-                    <td class="coluna-negrito">Desenvolvedor</td>
-                    <td>Apple</td>
-                    <td>Microsoft</td>
-                    <td>Comunidade Open Source</td>
-                </tr>
-                <tr>
-                    <td class="coluna-negrito">Licenciamento</td>
-                    <td>Proprietário</td>
-                    <td>Proprietário</td>
-                    <td>Open Source</td>
-                </tr>
-                <tr>
-                    <td class="coluna-negrito">Interface Gráfica</td>
-                    <td>macOS UI (Aqua)</td>
-                    <td>Windows GUI</td>
-                    <td>Varia (GNOME, KDE, XFCE, etc.)</td>
-                </tr>
-                <tr>
-                    <td class="coluna-negrito">Compatibilidade de Software</td>
-                    <td>Forte para software criativo (design, edição de vídeo)</td>
-                    <td>Grande compatibilidade, especialmente com software empresarial e jogos</td>
-                    <td>Varia conforme a distribuição, compatível com software de desenvolvimento e servidores
-                    </td>
-                </tr>
-                <tr>
-                    <td class="coluna-negrito">Segurança</td>
-                    <td>Considerado seguro, base Unix</td>
-                    <td>Vulnerável a malwares, mas com muitas soluções de segurança</td>
-                    <td>Considerado seguro, baseado em Unix, código aberto facilita correções rápidas</td>
-                </tr>
-                <tr>
-                    <td class="coluna-negrito">Customização</td>
-                    <td>Limitada, interface fechada</td>
-                    <td>Moderada, opções de personalização de interface e configuração</td>
-                    <td>Altamente customizável</td>
-                </tr>
-                <tr>
-                    <td class="coluna-negrito">Suporte a Hardware</td>
-                    <td>Suporte oficial apenas para hardware Apple</td>
-                    <td>Compatível com a maioria do hardware de mercado</td>
-                    <td>Compatível com uma ampla gama de hardware</td>
-                </tr>
-                <tr>
-                    <td class="coluna-negrito">Mercado Alvo</td>
-                    <td>Usuários criativos, designers, editores de vídeo</td>
-                    <td>Usuários gerais, empresas e gamers</td>
-                    <td>Desenvolvedores, servidores, usuários que preferem customização</td>
-                </tr>
-            </tbody>
+                <tbody>
+                    <tr>
+                        <td class="coluna-negrito">Desenvolvedor</td>
+                        <td>Apple</td>
+                        <td>Microsoft</td>
+                        <td>Comunidade Open Source</td>
+                    </tr>
+                    <tr>
+                        <td class="coluna-negrito">Licenciamento</td>
+                        <td>Proprietário</td>
+                        <td>Proprietário</td>
+                        <td>Open Source</td>
+                    </tr>
+                    <tr>
+                        <td class="coluna-negrito">Interface Gráfica</td>
+                        <td>macOS UI (Aqua)</td>
+                        <td>Windows GUI</td>
+                        <td>Varia (GNOME, KDE, XFCE, etc.)</td>
+                    </tr>
+                    <tr>
+                        <td class="coluna-negrito">Compatibilidade de Software</td>
+                        <td>Forte para software criativo (design, edição de vídeo)</td>
+                        <td>Grande compatibilidade, especialmente com software empresarial e jogos</td>
+                        <td>Varia conforme a distribuição, compatível com software de desenvolvimento e servidores
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="coluna-negrito">Segurança</td>
+                        <td>Considerado seguro, base Unix</td>
+                        <td>Vulnerável a malwares, mas com muitas soluções de segurança</td>
+                        <td>Considerado seguro, baseado em Unix, código aberto facilita correções rápidas</td>
+                    </tr>
+                    <tr>
+                        <td class="coluna-negrito">Customização</td>
+                        <td>Limitada, interface fechada</td>
+                        <td>Moderada, opções de personalização de interface e configuração</td>
+                        <td>Altamente customizável</td>
+                    </tr>
+                    <tr>
+                        <td class="coluna-negrito">Suporte a Hardware</td>
+                        <td>Suporte oficial apenas para hardware Apple</td>
+                        <td>Compatível com a maioria do hardware de mercado</td>
+                        <td>Compatível com uma ampla gama de hardware</td>
+                    </tr>
+                    <tr>
+                        <td class="coluna-negrito">Mercado Alvo</td>
+                        <td>Usuários criativos, designers, editores de vídeo</td>
+                        <td>Usuários gerais, empresas e gamers</td>
+                        <td>Desenvolvedores, servidores, usuários que preferem customização</td>
+                    </tr>
+                </tbody>
             </table>
 
             <hr>
 
-            <div>
-                <div>
-                    <h3>Comparando os sistema operacionais para Desktop</h3>
-                    <img src="IMG/tela windows.png" alt="tela janela do windows area de trabalho" id="windows">
+            <div class="caixa-vantagens-desvantagens">
+                <h3>Comparando os sistema operacionais para Desktop</h3>
 
+                <div class="vant-desv">
+                    <div class="imagem-download">
+                        <img src="IMG/tela windows.webp" alt="tela janela do windows area de trabalho" id="windows">
+                        <a href="#baixarwindows" class="baixe">saiba mais</a>
+                    </div>
                     <ul>
                         <h3>VANTAGENS</h3>
                         <li>Grande compatibilidade de software, especialmente com jogos e programas
@@ -226,9 +231,14 @@
                         <li>Custo elevado, especialmente para versões profissionais e empresariais.</li>
                         <li>Menor customização em comparação com sistemas como Linux.</li>
                     </ul>
+
                 </div>
-                <div>
-                    <img src="IMG/tela macos.png" alt="tela do macOS area de trabalho" id="macos">
+                <br>
+                <div class="vant-desv">
+                    <div class="imagem-download">
+                        <img src="IMG/tela macos.jpg" alt="tela do macOS area de trabalho" id="macos">
+                        <a href="#baixarwindows" class="baixe">saiba mais</a>
+                    </div>
 
                     <ul>
                         <h3>VANTAGENS</h3>
@@ -248,8 +258,13 @@
                             Windows.</li>
                     </ul>
                 </div>
-                <div>
-                    <img src="./IMG/tela linux.png" alt="tela do linux area de trabalho" id="linux">
+                <br>
+                <div class="vant-desv">
+                    <div class="imagem-download">
+                        <img src="./IMG/tela linux.png" alt="tela do linux area de trabalho" id="linux">
+                        <a href="#baixarwindows" class="baixe">saiba mais</a>
+                    </div>
+
                     <ul>
                         <h3>VANTAGENS</h3>
                         <li>É open source e gratuito, permitindo modificações e adaptações por parte dos
@@ -274,8 +289,13 @@
                     </ul>
 
                 </div>
-                <div>
-                    <img src="./IMG/tela android.png" alt="tela do android principal" id="android">
+                <br>
+                <div class="vant-desv">
+                    <div class="imagem-download">
+                    <img src="./IMG/tela android" alt="tela do android principal" id="android">
+                    <a href="#baixarwindows" class="baixe">saiba mais</a>
+                </div>
+
                     <ul>
                         <h3>VANTAGENS</h3>
                         <li>Disponível em uma ampla variedade de dispositivos e faixas de preço.</li>
@@ -296,8 +316,13 @@
                         <li>Desempenho inconsistente em dispositivos de hardware mais fraco.</li>
                     </ul>
                 </div>
-                <div>
+                <br>
+                <div class="vant-desv">
+                    <div class="imagem-download">
                     <img src="./IMG/tela ios.png" alt="tela do ios principal" id="ios">
+                    <a href="#baixarwindows" class="baixe">saiba mais</a>
+                </div>
+
                     <ul>
                         <h3>VANTAGENS</h3>
                         <li>Sistema operacional altamente otimizado para o hardware, garantindo desempenho
@@ -324,22 +349,25 @@
         </main>
 
 
-   
+
     </div>
+
     <footer>
         <img src="./IMG/logo.png" alt="logo sysops">
-        &copy; SYSCOPS
 
-        <div>
+        <h4>Direitos reservados para &copy; SYSOPS</h4>
+
+        <div class="icones">
             <a href=""><i class="fa-brands fa-facebook"></i></a>
             <a href=""><i class="fa-brands fa-instagram"></i></a>
             <a href=""><i class="fa-brands fa-twitter"></i></a>
             <a href=""><i class="fa-brands fa-google-plus"></i></a>
             <a href=""><i class="fa-brands fa-youtube"></i></a>
         </div>
-        <a href="#inicio">
-            <img src="./IMG/inicio.png" alt="">
-        </a>
+
+
+        <a href="#inicio"><i class="fas fa-arrow-up"></i></a>
+
     </footer>
 </body>
 
