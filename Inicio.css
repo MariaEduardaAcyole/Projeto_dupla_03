@@ -1,32 +1,49 @@
+:root {
+  --branco: #fff;
+  --cinza-claro: #676f9d;
+  --cinza-medio: #424769;
+  --cinza-escuro: #2d3250;
+  --dourado: #f9b17a;
+}
+
 body {
+
+  margin: 0%;
+  padding: 0%;
   display: flex;
   flex-wrap: wrap;
-  flex-direction: row;
-  background-color: rgb(255, 255, 255);
+  flex-direction: column;
+  background-color: var(--branco);
   color: #000000;
   width: 100%;
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
 }
-a {
+
+nav a {
+  color: var(--branco);
   text-decoration: none;
-  color: rgb(0, 0, 0);
+  padding: 10px;
+  transition: all 0.3s ease;
 }
-a:visited {
-  color: rgb(8, 216, 70);
+
+nav a:hover {
+  color: var(--dourado);
+  border-bottom: 2px solid var(--dourado);
 }
 
 header {
-  width: 100%;
+  width: 102%;
   height: 35vh;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   flex-direction: column;
-  border: 3px solid rgb(255, 255, 255);
+  background-color: var(--cinza-escuro);
 }
+
 #caixa-logo {
   width: 100%;
   height: 80%;
@@ -55,10 +72,15 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  border: 1px solid rgba(0, 0, 0, 0.592);
+  border: 1px solid rgba(255, 252, 252, 0.592);
   border-radius: 30px;
   font-weight: bold;
-  color: #000;
+  position: relative;
+}
+
+a {
+  background-color: transparent;
+
 }
 
 aside {
@@ -67,7 +89,6 @@ aside {
   flex-direction: column;
   flex-wrap: wrap;
   align-items: center;
-
   background-color: #ffffff0c;
 }
 
@@ -77,24 +98,27 @@ main {
 }
 
 .corpo {
-  width: 100%;
+  width: auto;
   height: 100%;
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: row;
 }
 
 .menu-lateral {
+  margin: 1%;
   width: 10%;
   float: left;
-  background-color: #919191dd;
+  height: auto;
+  background-color: var(--cinza-escuro);
 }
+
 .item-menu-lateral {
   padding-bottom: 30%;
   padding-top: 30%;
 }
+
 .conteudo {
   width: 83%;
-  float: right;
 }
 
 .como-funciona {
@@ -102,9 +126,12 @@ main {
   display: flex;
   flex-wrap: wrap;
 }
+
 .texto-geral {
   width: 70%;
 }
+
+/*
 .desktop, .moveis , .servidores, .vestiveis{
   width: 100%;
   display: flex;
@@ -120,4 +147,77 @@ main {
   border: #000 1px solid;
   padding: 1%;
   margin-bottom: 1%;
+} */
+
+/* Estilo da Caixa Principal */
+
+.caixa-tipos-de-sistemas {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 20px;
+  background-color: #f4f4f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo individual para cada bloco de SO */
+.caixa-tipos {
+  flex: 1 1 200px;
+  width: 25%;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  transition: transform 0.3s ease;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.caixa-tipos:hover {
+  transform: translateY(-5px);
+
+}
+
+.texto-tiposdesistemasoperacionais {
+  width: 100%;
+}
+
+.os-box:hover {
+  transform: translateY(-5px);
+}
+
+/* Ícone de SO */
+.os-box img {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 15px;
+}
+
+.caixa-corte-de-conteudo {
+  width: 100%;
+  height: 2%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+table,
+th,
+td {
+  border: 2px solid #424769;
+  text-align: left;
+  padding: 10px;
+}
+
+thead {
+  background-color: #676f9d;
+}
+
+.coluna-negrito{
+font-weight: bold;
 }
