@@ -209,3 +209,20 @@ p {
     flex-direction: row;
   justify-content: space-evenly;
   }
+  
+  .imagem-download{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .imagem-download a{
+    color: var(--dourado);
+    text-decoration: none;
+    padding: 10px;
+    transition: all 0.3s ease;
+  }
+  .imagem-download a:hover{
+      color: var(--dourado);
+      border-bottom: 2px solid var(--dourado);
+    }
+  
